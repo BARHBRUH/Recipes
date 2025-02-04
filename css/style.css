@@ -9,6 +9,27 @@ img {
     width: auto;
 }
 
+li {
+    list-style-position: inside;
+}
+
+a:link {
+    color: rgb(223, 206, 169)
+}
+
+a:visited {
+    color: rgb(223, 206, 169)
+}
+
+.nava:link {
+    text-decoration: none;
+  }
+
+.nava:visited {
+    text-decoration: none;
+}
+
+
 .nav {
     list-style-type: none; 
     margin: 0;
@@ -23,6 +44,16 @@ img {
     background-color: rgb(62, 37, 85);
 }
 
+.navli:hover {
+    background-color: rgb(138, 83, 0);
+    color: rgb(145, 224, 255);
+}
+
+.nava:hover {
+    background-color: rgb(138, 83, 0);
+    color: rgb(145, 224, 255);
+}
+
 .pagetitle {
     font-size: 75px;
     font-family: serif, 'Times New Roman', Times;
@@ -33,4 +64,8 @@ img {
     color: rgb(173, 145, 187);
     font-size: 25px;
     font-weight: 800;
+}
+
+.wait {
+    font-style: oblique;
 }
