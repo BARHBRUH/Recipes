@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(7, 7, 37);
+    color: rgb(223, 206, 169);
+  text-align: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
+
+.nav {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(28, 63, 63);
+}
+
+.navli {
+    display: inline;
+    padding: 8px;
+    background-color: rgb(62, 37, 85);
+}
+
+.pagetitle {
+    font-size: 75px;
+    font-family: serif, 'Times New Roman', Times;
+    font-weight: 800;
+}
+
+.return {
+    color: rgb(173, 145, 187);
+    font-size: 25px;
+    font-weight: 800;
+}
