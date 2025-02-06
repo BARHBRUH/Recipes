@@ -85,6 +85,7 @@ a:visited {
 .cam {
     position: fixed;
     font-size: 10px;
+    /* margin-left: 400px; */
 }
 
 .cam p {
@@ -94,4 +95,8 @@ a:visited {
 .cam img {
     height: 100px;
     width: auto;
+}
+
+.nav.pick {
+    margin-left: 75%;
 }
