@@ -84,4 +84,14 @@ a:visited {
 
 .cam {
     position: fixed;
+    font-size: 10px;
+}
+
+.cam p {
+    display: block;
+}
+
+.cam img {
+    height: 100px;
+    width: auto;
 }
