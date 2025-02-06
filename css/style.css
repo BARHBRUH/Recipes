@@ -6,6 +6,8 @@
 
 body {
     background-color: rgb(7, 7, 37);
+    /* background-image: url(../img/IMG_0625.jpg); */
+    background-size: 100%;
     color: rgb(223, 206, 169);
     text-align: center;
 }
@@ -13,6 +15,48 @@ body {
 img {
     height: 200px;
     width: auto;
+}
+
+div.homenav {
+    background-color: rgba(14, 14, 67, 0.5);
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.home {
+    background-color: rgb(35, 35, 97, 0.5);
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.home1 {
+    background-color: rgb(56, 56, 127, 0.5);
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.home2 {
+    background-color: rgb(77, 77, 157, 0.5);
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.home3 {
+    background-color: rgb(98, 98, 187, 0.5);
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.home4 {
+    background-color: rgb(112,112, 217, 0.5);
+    padding: 15px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 li {
@@ -99,4 +143,9 @@ a:visited {
 
 .nav.pick {
     margin-left: 75%;
+}
+
+.nav.cat {
+    margin-left: 75%;
+    padding: 2px;
 }
